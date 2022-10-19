@@ -1,4 +1,4 @@
-package com.alkemy.icons.icons.controller;
+ package com.alkemy.icons.icons.controller;
 
 import java.util.List;
 
@@ -33,5 +33,4 @@ public class ContinenteController {
 		ContinenteDTO continenteGuardado = continenteService.save(continente);
 		return ResponseEntity.status(HttpStatus.CREATED).body(continenteGuardado);
 	}
-
 }
