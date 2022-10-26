@@ -9,5 +9,7 @@ public interface IconService {
 	IconDTO saved (IconDTO dto);
 	
 	List<IconDTO> getAllIcons();
+	
+	void delete (Long id);
 
 }
